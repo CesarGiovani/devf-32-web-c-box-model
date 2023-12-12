@@ -1,0 +1,70 @@
+/* Estilos para la clase .card */
+.card {
+    background-color: red; /* Establece el color de fondo a rojo */
+    margin: 0 0 100px 5px; /* Establece los márgenes superior, derecho, inferior e izquierdo respectivamente a 0, 0, 100px y 5px */
+    border-top: #aa00ff 10px solid; /* Crea un borde en la parte superior de 10px de ancho y color #aa00ff */
+    padding: 15px; /* Añade un relleno de 15px alrededor del contenido */
+    width: 500px; /* Fija el ancho del elemento a 500px */
+}
+
+/* Estilos para la clase .card-dos */
+.card-dos {
+    background-color: aquamarine; /* Establece el color de fondo a aquamarine */
+    box-sizing: content-box; /* Define el modelo de caja para incluir el padding y el border en el ancho del elemento */
+    width: 100px; /* Fija el ancho del elemento a 100px */
+    margin: 15px; /* Establece un margen de 15px en todos los lados del elemento */
+    padding: 15px; /* Añade un relleno de 15px alrededor del contenido */
+}
+
+/* Estilos para la clase .card-tres */
+.card-tres {
+    background-color: brown; /* Establece el color de fondo a marrón */
+    text-align: center; /* Alinea el texto al centro dentro del elemento */
+    max-width: 800px; /* Define el ancho máximo del elemento a 800px */
+    margin: auto; /* Centra el elemento horizontalmente en su contenedor */
+}
+
+/* Estilos para los elementos <p> dentro de .card-tres */
+.card-tres p {
+    color: white; /* Establece el color del texto a blanco */
+}
+
+/* Estilos para el contenedor de imagen */
+.contenedor-imagen {
+    position: relative; /* Establece la posición del elemento como relativa al flujo normal del documento */
+}
+
+/* Estilos para las imágenes dentro de .contenedor-imagen */
+.contenedor-imagen img {
+    /* Establece la posición del elemento como absoluta, para poder mover los elementos a consideración y posicionarlos uno sobre otro */
+    /* Descomentar la linea de abajo para ver el cambio */
+
+    /* position: absolute; */ 
+}
+
+/* Estilos para el elemento con el id #arbol */
+#arbol {
+    z-index: 10; /* Establece el índice z para controlar la superposición de elementos, el elemento con este id se muestra encima de otros elementos */
+}
+
+/* Estilos para el elemento con el id #carta */
+#carta {
+    z-index: 2; /* Establece el índice z para controlar la superposición de elementos, el elemento con este id se muestra debajo de otros elementos con índices z más altos */
+    margin-top: 100px; /* Establece un margen superior de 100px para el elemento */
+}
+
+/* Estilos para el contenedor con la clase .contendedor-display */
+.contendedor-display {
+    background-color: #388f32; /* Establece el color de fondo a un tono de verde */
+}
+
+/* Estilos para los elementos <p> dentro de .contendedor-display */
+.contendedor-display p {
+    display: inline; /* Establece que los párrafos se muestren en línea (en la misma línea) */
+}
+
+/* Estilos para los elementos <a> dentro de .contendedor-display */
+.contendedor-display a {
+    display: block; /* Establece que los enlaces se muestren como bloques (ocupando toda la anchura disponible) */
+    margin: 0 10px; /* Establece un margen de 0 en la parte superior e inferior y 10px en los lados izquierdo y derecho de los enlaces */
+}
